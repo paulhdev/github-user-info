@@ -1,10 +1,15 @@
 import React from "react";
 
+import { Container, Form } from "./styles";
+
 function Main() {
   return (
-    <div>
-      <h1>Home/Main</h1>
-    </div>
+    <Container>
+      <Form>
+        <input placeholder="Nome do usuário..." />
+        <button>OK</button>
+      </Form>
+    </Container>
   );
 }
 
