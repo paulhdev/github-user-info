@@ -6,7 +6,7 @@ import { HeaderStyle } from "./styles";
 const Header = () => {
   return (
     <HeaderStyle>
-      <h1>GeitUser</h1>
+      <h1>GetUser</h1>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/sobre">Sobre</Link>
