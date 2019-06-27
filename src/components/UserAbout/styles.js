@@ -16,7 +16,7 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.article`
-  width: 18em;
+  width: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;

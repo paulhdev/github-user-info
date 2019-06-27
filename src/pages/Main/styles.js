@@ -20,12 +20,12 @@ export const Form = styled.form`
     flex: 1;
     height: 40px;
     width: 90%;
-    padding: 5px;
+    padding: 0 5px;
     border-radius: 3px;
-    border: none;
-    border-bottom: 1px solid #eee;
     font-size: 1.1rem;
     color: #444;
+
+    border: ${props => (props.withError ? "1px solid #f00" : "1px solid #eee")}
 
     &::-webkit-input-placeholder {
       color: #c4c4c4;
@@ -42,4 +42,13 @@ export const Form = styled.form`
     color: #fff;
     font-weight: bold;
   }
+`;
+
+export const Message = styled.h2`
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 40px;
 `;
